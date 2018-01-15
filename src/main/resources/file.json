@@ -1,0 +1,20 @@
+{
+  "@context":
+  {
+    "name": "http://schema.org/name",
+    "Image": "http://schema.org/Image",
+    "Person": "http://schema.org/Person",
+    "Restaurant": "http://schema.org/Restaurant",
+    "image": {
+      "@id": "http://schema.org/image",
+      "@type": "Image" 
+    },
+    "homepage": {
+      "@id": "http://schema.org/url", 
+      "@type": "Restaurant"
+    }
+  },
+  "name": "Manu Sporny",
+  "homepage": "http://manu.sporny.org/",
+  "image": "http://manu.sporny.org/images/manu.png"
+}
